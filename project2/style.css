@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: beige;
+  height: 100vh;
+}
+
+#info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#info div {
+  padding: 3rem;
+  background-color: goldenrod;
+  margin: 0.5rem;
+  border-radius: 10px;
+  color: firebrick;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+}
